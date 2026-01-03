@@ -1,0 +1,12 @@
+# Data Manipulation & Analysis
+pandas==2.2.0
+numpy==1.26.0
+
+# Statistical & Inferential Engine
+scipy==1.12.0
+
+# API Connectivity & Handshakes
+requests==2.31.0
+
+# Security & Environment Variable Management
+python-dotenv==1.0.1

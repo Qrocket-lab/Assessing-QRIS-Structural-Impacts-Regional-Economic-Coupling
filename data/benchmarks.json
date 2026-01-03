@@ -1,0 +1,13 @@
+{
+  "metadata": {
+    "source_qris": "Bank Indonesia - Statistik Sistem Pembayaran (SSP) 2024",
+    "source_pdrb": "BPS - Laju Pertumbuhan PDRB atas Dasar Harga Konstan 2024",
+    "last_updated": "2026-01-03"
+  },
+  "regional_matrix": [
+    {"province": "Jabar", "qris_density": 6.81, "pdrb_growth": 4.95},
+    {"province": "DKI", "qris_density": 5.28, "pdrb_growth": 4.90},
+    {"province": "Jatim", "qris_density": 3.61, "pdrb_growth": 4.88},
+    {"province": "Bali", "qris_density": 0.82, "pdrb_growth": 5.80}
+  ]
+}
