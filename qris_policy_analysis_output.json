@@ -1,0 +1,119 @@
+{
+  "executive_summary": {
+    "timestamp": "2026-01-03 18:16:18",
+    "engine_status": {
+      "bps_api": "KEY LOADED",
+      "data_vault": "LOADED & VALIDATED",
+      "sentinel_radar": "READY",
+      "validation_checks": []
+    },
+    "regional_statistics": {
+      "num_provinces": 4,
+      "avg_qris_density": 4.13,
+      "avg_pdrb_growth": 5.1325,
+      "data_source": "Bank Indonesia - Statistik Sistem Pembayaran (SSP) 2024"
+    },
+    "key_finding": "No statistically significant relationship between QRIS density and economic growth",
+    "strategic_recommendation": "TARGETED ACCELERATION IN HIGH-GROWTH REGIONS",
+    "top_opportunity_provinces": [
+      {
+        "province": "Bali",
+        "pdrb_growth": "5.8%",
+        "qris_density": "0.8",
+        "growth_gap": "0.9% above median"
+      }
+    ],
+    "sentiment_overview": {
+      "high_risk_pillars": [],
+      "total_articles_monitored": 3
+    },
+    "data_quality_notes": []
+  },
+  "detailed_analysis": {
+    "correlation_coefficient": -0.8261,
+    "p_value": 0.1739,
+    "interpretation": "No statistically significant relationship between QRIS density and economic growth",
+    "statistical_significance": "NOT SIGNIFICANT",
+    "quadrant_distribution": {
+      "STARS (High-High)": 1,
+      "SATURATED (High-Low)": 1,
+      "SLEEPING GIANTS (Low-Low)": 1,
+      "OPPORTUNITY GAP (Low-High)": 1
+    },
+    "top_opportunities": [
+      {
+        "province": "Bali",
+        "pdrb_growth": "5.8%",
+        "qris_density": "0.8",
+        "growth_gap": "0.9% above median"
+      }
+    ],
+    "recommended_actions": {
+      "primary_strategy": "TARGETED ACCELERATION IN HIGH-GROWTH REGIONS",
+      "actions": [
+        "Prioritize 'SIAP QRIS' campaign in Opportunity Gap provinces",
+        "Tailor incentives for merchants in high-PDRB, low-QRIS areas",
+        "Investigate barriers to adoption in wealthy regions",
+        "Public-private partnerships with regional business associations"
+      ],
+      "kpis": [
+        "Increase QRIS density in top 5 Opportunity Gaps by 30% in 6 months",
+        "Achieve 80% merchant awareness in targeted regions"
+      ]
+    }
+  },
+  "sentiment_monitoring": {
+    "RISIKO_PENIPUAN": {
+      "article_count": 0,
+      "risk_level": "LOW",
+      "note": "No significant media coverage in last 2 months"
+    },
+    "STABILITAS_TEKNIS": {
+      "article_count": 0,
+      "risk_level": "LOW",
+      "note": "No significant media coverage in last 2 months"
+    },
+    "ADOOPSI_DIGITAL": {
+      "article_count": 0,
+      "risk_level": "LOW",
+      "note": "No significant media coverage in last 2 months"
+    },
+    "REGULASI_BI": {
+      "article_count": 3,
+      "sample_headlines": [
+        "Human rights minister urges for probe into threats against activists",
+        "Kekayaan Haji Isam , Crazy Rich Kalsel yang Fotonya Bareng Raffi Ahmad Berujung Badai Kritik"
+      ],
+      "risk_level": "MEDIUM"
+    },
+    "EKOSISTEM_PEMBAYARAN": {
+      "error": "Expecting value: line 1 column 1 (char 0)"
+    }
+  },
+  "raw_data_sample": [
+    {
+      "province": "Jabar",
+      "qris_density": 6.81,
+      "pdrb_growth": 4.95,
+      "quadrant": "STARS (High-High)"
+    },
+    {
+      "province": "DKI",
+      "qris_density": 5.28,
+      "pdrb_growth": 4.9,
+      "quadrant": "SATURATED (High-Low)"
+    },
+    {
+      "province": "Jatim",
+      "qris_density": 3.61,
+      "pdrb_growth": 4.88,
+      "quadrant": "SLEEPING GIANTS (Low-Low)"
+    },
+    {
+      "province": "Bali",
+      "qris_density": 0.82,
+      "pdrb_growth": 5.8,
+      "quadrant": "OPPORTUNITY GAP (Low-High)"
+    }
+  ]
+}
