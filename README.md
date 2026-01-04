@@ -54,41 +54,62 @@ graph TD
 * Resource allocation optimization.
 * Implementation risk assessment.
 
-### Technical Implementation
+## Technical Implementation Overview
+
+This repository demonstrates an **analytical support framework** designed to assist policy assessment and program planning related to QRIS adoption.
+
+The implementation emphasizes:
+
+* **Clarity of methodology**
+* **Reproducibility of analysis**
+* **Compatibility with BI’s internal data workflows**
+
+### Technology Stack (Demonstration Scope)
 
 * **Language**: Python 3.9+
-* **Key Libraries**: `pandas`, `scipy`, `requests`, `numpy`
-* **Data Sources**: BPS API, GDELT API, BI Internal Systems
-* **Output Formats**: JSON, Executive Summary, Dashboard Data
-* **Deployment**: Container-ready, cloud-compatible
+* **Core Libraries**: `pandas`, `numpy`, `scipy`, `requests`
+* **Data Sources (Illustrative)**:
 
-### Deployment Roadmap for BI
+  * BPS public statistics
+  * Media-based market intelligence (GDELT)
+  * Simulated BI internal data structures
+* **Outputs**:
 
-| Phase | Timeline | Deliverables |
-| --- | --- | --- |
-| **Technical Review** | Week 1 | Architecture validation with ITSP team |
-| **Data Integration** | Week 2-3 | Connection to BI's production data systems |
-| **Pilot Deployment** | Week 4-5 | 3-province operational testing |
-| **Full Deployment** | Week 6-8 | Rollout to all 7 BI regional offices |
-| **Optimization Cycle** | Month 2+ | Monthly policy review integration |
+  * Analytical summaries (JSON)
+  * Input-ready data for dashboards and briefing materials
 
-### Expected Impact for BI
+> *This repository focuses on analytical logic and structure rather than production deployment.*
 
-| Metric | Current (Manual) | With Framework | Improvement |
-| --- | --- | --- | --- |
-| **Analysis Time** | 2-3 weeks | 2-3 hours | **95% reduction** |
-| **Data Coverage** | 10-15 provinces | All 34 provinces | **200% increase** |
-| **Decision Quality** | Intuition-based | Data-driven | Measurable KPI alignment |
-| **Risk Detection** | Quarterly reports | Real-time alerts | Proactive vs reactive |
+---
+
+## Analytical Outputs for Policy Support
+
+The framework is designed to generate inputs commonly required by DKSP–ITSP teams, such as:
+
+* Regional QRIS adoption mapping
+* Identification of potential **priority intervention areas**
+* Supporting data for internal presentations and policy briefs
+* Early signals from media coverage related to payment system risks
+
+All outputs are intended as **decision-support materials**, not automated policy recommendations.
+
+---
+
+## Demonstration & Validation Notes
 
 > [!IMPORTANT]
-> **Demonstration Notes**: Current analysis uses limited demonstration data (4 provinces). The framework's value is demonstrated through:
-> 1. **Architecture Scalability**: Same code processes 4 or 40 provinces.
-> 2. **Methodological Rigor**: Proper statistical testing with caveats.
-> 3. **Production Readiness**: Enterprise-grade error handling and logging.
-> 4. **BI Integration Design**: Built for BI's existing data infrastructure.
-> 
-> 
+> **Demonstration Scope Disclaimer**
+>
+> The current implementation uses **limited sample data** for demonstration purposes only.
+> The value of this repository lies in:
+>
+> 1. **Analytical Structure** – Clear separation between data, analysis, and presentation layers
+> 2. **Methodological Transparency** – Explicit assumptions and statistical caveats
+> 3. **Scalability Concept** – Analytical logic remains consistent as data coverage expands
+> 4. **Alignment with BI Workflow** – Designed to support, not replace, existing processes
+>
+> This repository should be reviewed as a **technical and analytical showcase**, not as a production system.
+
 
 ### Installation & Execution
 
@@ -110,3 +131,7 @@ python qris_policy_framework.py
 cat bi_qris_analysis_[timestamp].json
 
 ```
+
+
+
+
